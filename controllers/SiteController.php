@@ -62,9 +62,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {   
-        return phpinfo();
-     
-        //return $this->render('index');
+       return $this->render('index');
     }
 
     public function actionSay($message = 'Hello',$name = 'Jason')
